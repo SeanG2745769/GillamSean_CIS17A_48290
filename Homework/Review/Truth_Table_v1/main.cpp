@@ -30,8 +30,9 @@ int main(int argc, char** argv) {
         <<(!(x&&y)?'T':'F')<<"      "
         <<(!x||!y?'T':'F')<<"        "
         <<(!(x||y)?'T':'F')<<"      "
-        <<(!x&&!y?'T':'F');
+        <<(!x&&!y?'T':'F')<<endl;
     }
+    cout<<endl;
 
     //Exit
     return 0;
