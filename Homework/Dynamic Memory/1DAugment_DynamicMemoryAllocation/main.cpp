@@ -48,7 +48,7 @@ int *augment(const int *arr_f,int size_f)
     }
     arr_f2[0]=0;
     
-    return arr_f2;
+    return arr_f2; 
 }
 
 void prntAry(const int *arr_f,int size_f)
