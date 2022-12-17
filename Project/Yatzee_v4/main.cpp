@@ -261,7 +261,7 @@ void game(int numPlayers, bool cgame)
                 else
                 {
                     cout<<"Which Dice would you like to reroll?"<<endl;
-                    for(int i=0;i<reroll;i++)
+                    for(int j=0;j<reroll;j++)
                     {
                         do
                         {
